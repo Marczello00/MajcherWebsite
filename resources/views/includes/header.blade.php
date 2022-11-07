@@ -1,7 +1,6 @@
 <div class="container bg-black">
   <div class="row align-items-start" style="margin-top:3%;">
     <div class="col">
-      ello
     </div>
     <div class="col">
       <a id="logo" href="/">
@@ -25,16 +24,7 @@
     </div>
     <div class="col">
       <figure class="text-end">
-        <div class="dropdown">
-          <a id="aaaaab" class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            i
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
+
       </figure>
     </div>
   </div>
@@ -46,14 +36,25 @@
       <a class="navbar-brand" href="/">Strona główna</a>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="queue">Kolejka</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="queue">Kolejka</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="pricing">Cennik</a>
+          </li>
+          <li class="nav-item">
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="img/language.png" alt="" width="30vh">         
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/" onclick="setLanguage(1)">Polski</a></li>
+            <li><a class="dropdown-item" href="/" onclick="setLanguage(2)">English</a></li>
+            <li><a class="dropdown-item" href="/" onclick="setLanguage(3)">Deutsch</a></li>
+          </ul>
+        </li>
           </li>
         </ul>
       </div>

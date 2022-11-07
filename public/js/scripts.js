@@ -21,15 +21,6 @@ function getCookie(cname) {
     return "";
 }
 
-
-function checkCookieLanguage() {
-    let langauge = getCookie("language");
-    if (langauge != "") {
-     setCookie("language","pl",14);
-    }
-  }
-
-
 function displayCookies() {
     var fname = getCookie("language");
     if (fname == null) {
@@ -48,7 +39,6 @@ function displayCookies() {
     alert(fname + " " + lname);
 }
 
-
 function getCookie(name) {
     var nameEQ = name + "=";
     //alert(document.cookie);
@@ -62,6 +52,25 @@ function getCookie(name) {
     return null;
 }
 
+function checkCookieLanguage() {
+    let langauge = getCookie("language");
+    if (langauge == null) {
+        setCookie("language", "pl", 14);
+    }
+}
 
+function setLanguage(lang) {
+    switch (lang) {
+        case 1:
+            setCookie("language", "pl", 14);
+            break;
+        case 2:
+            setCookie("language", "en", 14);
+            break;
+        case 3:
+            setCookie("language", "de", 14);
+            break;
+    }
+}
 
 //document.getElementById("aaaaab").textContent="newtext";
