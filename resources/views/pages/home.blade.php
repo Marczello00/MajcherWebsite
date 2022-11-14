@@ -3,9 +3,20 @@
 
 
 
-<button type="button" onclick="displayCookies()">Display All Cookies</button>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam molestie erat, et semper massa auctor in. Etiam dignissim, dui sit amet pellentesque bibendum, magna nisl pretium diam, sodales semper ligula tortor eget quam. Pellentesque nec odio tellus. Donec metus libero, malesuada eu libero eu, accumsan vulputate elit. Cras maximus fermentum velit, a finibus massa sagittis in. Morbi in enim lectus. Pellentesque feugiat ut felis eu faucibus.
-    <br><br><img src="https://image.shutterstock.com/image-vector/default-avatar-profile-icon-grey-260nw-1072447043.jpg" class="img-fluid"><br>
+<<!--<button type="button" onclick="displayCookies()">Display All Cookies</button>-->
+<div
+  class="bg-image"
+  style="
+    background-image: url('/img/bg.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+  "
+>
+<p class="text-center text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam molestie erat, et semper massa auctor in. Etiam dignissim, dui sit amet pellentesque bibendum, magna nisl pretium diam, sodales semper ligula tortor eget quam. Pellentesque nec odio tellus. Donec metus libero, malesuada eu libero eu, accumsan vulputate elit. Cras maximus fermentum velit, a finibus massa sagittis in. Morbi in enim lectus. Pellentesque feugiat ut felis eu faucibus.
+
+</div>
+
 <p>Phasellus enim magna, imperdiet at magna sed, bibendum euismod elit. Vivamus quis blandit sapien. Morbi vitae eleifend dolor, laoreet efficitur metus. Nulla malesuada risus dignissim, luctus leo eu, commodo mauris. Duis dapibus velit at tellus elementum volutpat. Duis tempor lacinia accumsan. Integer lorem enim, mattis nec dignissim sit amet, facilisis eget sem. Duis at erat dolor. Suspendisse vitae cursus mi. Donec a diam magna. In condimentum ultrices diam, ac vestibulum orci fringilla eget. Ut ligula quam, egestas nec consequat nec, dapibus vel nisi. Suspendisse vehicula massa ut velit posuere, vitae tempor tortor pulvinar. Nam ac posuere tortor, non convallis sem.</p>
 <!--<br><img src="https://image.shutterstock.com/image-vector/default-avatar-profile-icon-grey-260nw-1072447043.jpg" class="img-fluid">-->
 <p>Maecenas commodo hendrerit nisl, in gravida urna fringilla et. Pellentesque ligula sem, rhoncus quis ante id, consequat auctor leo. In hac habitasse platea dictumst. Pellentesque in nunc maximus, porta diam in, bibendum elit. Donec tincidunt convallis condimentum. Maecenas id condimentum ligula. Phasellus nec leo et elit ultrices ultrices. Nam nec nunc nec orci lacinia ornare. Integer luctus aliquam risus, id sollicitudin dolor auctor sit amet. Cras odio massa, tristique vel semper at, suscipit ut justo. Etiam elementum tortor luctus lacus dapibus, in lobortis orci porttitor. Duis congue mauris velit, a sodales elit porta in. Duis accumsan, dui vel iaculis fermentum, tortor mi laoreet enim, vel elementum dolor massa ut libero. Nulla pharetra metus a nunc aliquet, blandit lobortis enim auctor. Sed pellentesque non nisi ac mollis. In non purus vitae erat consequat accumsan eu eget lectus.</p>

@@ -5,14 +5,14 @@
     @include('includes.head')
 </head>
 
-<body class="container" onload="checkCookieLanguage()">
+<body class="container bg-black"  onload="checkCookieLanguage()">
 
     <div class="container">
         <header class="row">
             @include('includes.header')
         </header>
     </div>
-    <div id="main" class="row">
+    <div id="main" class="row" style="">
         @yield('content')
     </div>
     <footer class="row">
