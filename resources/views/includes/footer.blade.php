@@ -1,7 +1,8 @@
 <div id="copyright text-right">© 2022  </div>
-
-
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 <!-- cookie warning toast -->
 <div class="fixed-bottom p-4">
         <div class="toast bg-dark text-white w-100 mw-100" role="alert" data-bs-autohide="false">
