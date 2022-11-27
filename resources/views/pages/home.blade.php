@@ -3,7 +3,7 @@
 
 
 
-<<!--<button type="button" onclick="displayCookies()">Display All Cookies</button>-->
+<!--<button type="button" onclick="displayCookies()">Display All Cookies</button>-->
   <div class="bg-image" style="
     background-image: url('/img/div1.jpg');
     background-repeat: no-repeat;
