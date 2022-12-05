@@ -31,3 +31,21 @@ function ()
     return view('pages.pricing');
 }
 );
+Route::get('/contact', 
+function () 
+{
+    return view('pages.contact');
+}
+);
+Route::get('/privacy', 
+function () 
+{
+    return view('pages.privacy');
+}
+);
+Route::get('/gallery', 
+function () 
+{
+    return view('pages.gallery');
+}
+);

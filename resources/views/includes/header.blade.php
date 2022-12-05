@@ -5,7 +5,7 @@
       </a>
     </div>
   </div>
-  <nav class="navbar navbar-expand-xxl navbar-dark justify-content-center">
+  <nav class="navbar navbar-expand-xxl navbar-dark justify-content-center rounded" style="background-color: #191919;">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -16,10 +16,10 @@
             <a class="nav-link" href="queue">Kolejka</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="queue">Kolejka</a>
+            <a class="nav-link" href="contact">Kontakt</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="pricing">Cennik</a>
+            <a class="nav-link" href="gallery">Galeria</a>
           </li>
           <li class="nav-item">
           <li class="nav-item dropdown">
