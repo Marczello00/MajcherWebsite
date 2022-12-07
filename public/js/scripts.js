@@ -77,3 +77,31 @@ function setLanguage(lang) {
     }
 }
 
+function check_cameras(){
+    const a=new Date();
+    b=a.getDay();
+    c=a.getHours();
+    d=a.getMinutes();
+    //Check if mon-fri
+    if((b>=1)&&(b<=5)){
+        //check if later than 8:00 or 7:45
+        if((c>7)||((c==7)&&(d>=45))){
+            //check if earlier than 17:00 or 17:45
+            if((c<17)||((c==17)&&(d<=45))){
+            //pass? let them see camera
+            document.getElementById("camera_workshop").setAttribute("class", "camera_unhidden"); 
+            }
+        }
+    }
+    //Check if saturday
+    if(b==6){
+        //check if later than 8:00 or 7:45
+        if((c>7)||((c==7)&&(d>=45))){
+            //check if earlier than 12:00 or 12:45
+            if((c<12)||((c==12)&&(d<=45))){
+            //pass? let them see camera
+            document.getElementById("camera_workshop").setAttribute("class", "camera_unhidden"); 
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+.camera_hidden{
+    visibility: hidden;
+}
+.camera.unhidden{
+    visibility: none;;
+}

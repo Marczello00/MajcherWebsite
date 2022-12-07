@@ -60,7 +60,7 @@
                 <h5 class="card-title">Przydatne linki</h5>
                 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v15.0" nonce="lm4zSAo5"></script>
                 <div class="fb-page" data-href="https://www.facebook.com/majcher.serwis/" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/majcher.serwis/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/majcher.serwis/">Majcher - Myjnia oraz Serwis opon</a></blockquote></div>
-                <div style="margin-top: 5%;">Marcel Majcher</div>
+                <div style="margin-top: 5%;">2018-<span id="year"></span>© Marcel Majcher ver 2.0</div><script>document.getElementById("year").innerText = new Date().getFullYear();</script>
               </div>
           </div>
         </div>
