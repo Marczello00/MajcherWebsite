@@ -5,7 +5,7 @@
     @include('includes.head')
 </head>
 
-<body class="container bg-black"  onload="checkCookieLanguage()">
+<body class="container-fluid bg-black"  onload="checkCookieLanguage()">
 
     <div class="container">
         <header class="row">
