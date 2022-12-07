@@ -1,4 +1,4 @@
-<div id="copyright text-right">© 2022  </div>
+<div id="copyright text-right"><br><br>  </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
@@ -60,6 +60,7 @@
                 <h5 class="card-title">Przydatne linki</h5>
                 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v15.0" nonce="lm4zSAo5"></script>
                 <div class="fb-page" data-href="https://www.facebook.com/majcher.serwis/" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/majcher.serwis/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/majcher.serwis/">Majcher - Myjnia oraz Serwis opon</a></blockquote></div>
+                <div style="margin-top: 5%;">Marcel Majcher</div>
               </div>
           </div>
         </div>

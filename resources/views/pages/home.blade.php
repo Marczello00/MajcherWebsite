@@ -105,7 +105,7 @@ W naszej ofercie posiadamy również nowe opony jak i hotel dla kół lub opon. 
 <h2>naprawa<br>
   wymiana<br>
   programowanie<br>
-  sprzedaż nowych marki Autel<br></h2>
+  sprzedaż nowych<br></h2>
 </div>
 </div>
 
