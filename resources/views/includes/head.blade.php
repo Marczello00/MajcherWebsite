@@ -9,3 +9,5 @@
 <!-- AOS library-->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <link rel="stylesheet" href="css/style.css"/>
+<!-- reCAPTCHA
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>-->

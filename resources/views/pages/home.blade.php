@@ -32,7 +32,7 @@ W naszej ofercie posiadamy również nowe opony jak i hotel dla kół lub opon. 
     height: 90vh;
     margin-top: 10%;">
 <div data-aos="fade-right" data-aos-duration="1000" class="text-center text-light" style="margin-top: 10%;">
-<h1>Opony w samochodach osobowych:</h1>
+<h2>Opony w samochodach osobowych:</h2>
 <p>wymiana<br>
     wyważanie<br>
     naprawa<br>
@@ -52,7 +52,7 @@ W naszej ofercie posiadamy również nowe opony jak i hotel dla kół lub opon. 
     height: 90vh;
     margin-top: 10%;">
 <div data-aos="fade-right" data-aos-duration="1000" class="text-center text-light" style="margin-top: 10%;">
-<h1>Opony rolnicze i ciężarowe:</h1>
+<h2>Opony rolnicze i ciężarowe:</h2>
 <h2>wymiana<br>
     naprawa<br></h2>
 </div>
@@ -68,7 +68,7 @@ W naszej ofercie posiadamy również nowe opony jak i hotel dla kół lub opon. 
     height: 90vh;
     margin-top: 10%;">
 <div data-aos="fade-right" data-aos-duration="1000" class="text-center text-light" style="margin-top: 10%;">
-<h1>Opony motocyklowe:</h1>
+<h2>Opony motocyklowe:</h2>
 <h2>wymiana<br>
     wyważanie<br>
     naprawa<br></h2>
@@ -85,7 +85,7 @@ W naszej ofercie posiadamy również nowe opony jak i hotel dla kół lub opon. 
     height: 90vh;
     margin-top: 10%;">
 <div data-aos="fade-right" data-aos-duration="1000" class="text-center text-light" style="margin-top: 10%;">
-<h1>Klimatyzacja w pojazdach:</h1>
+<h2>Klimatyzacja w pojazdach:</h2>
 <h2>sprawdzanie szczelności<br>
   uzupełnianie czynnika<br>
   odgrzybianie<br></h2>
@@ -101,7 +101,7 @@ W naszej ofercie posiadamy również nowe opony jak i hotel dla kół lub opon. 
     height: 90vh;
     margin-top: 10%;">
 <div data-aos="fade-right" data-aos-duration="1000" class="text-center text-light" style="margin-top: 10%;">
-<h1>Czujniki ciśnienia w kołach:</h1>
+<h2>Czujniki ciśnienia w kołach:</h2>
 <h2>naprawa<br>
   wymiana<br>
   programowanie<br>

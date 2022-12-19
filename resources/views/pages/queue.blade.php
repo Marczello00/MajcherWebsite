@@ -1,6 +1,7 @@
 @extends('layouts.default')
 @section('content')
-<div class="d-flex justify-content-center text-light" style="margin-top: 5%; margin-bottom: 5%;"> <h2>Udostępniamy możliwość sprawdzenia aktualnej kolejki na wymianę opon oraz na myjnię</h2></div>
+<div class="d-flex justify-content-center text-light"> <h1>Kolejka</h1></div>
+<div class="d-flex justify-content-center text-light" style="margin-top: 5%; margin-bottom: 5%;"> <h3>Udostępniamy możliwość sprawdzenia aktualnej kolejki na wymianę opon oraz na myjnię</h3></div>
    <div class="d-flex justify-content-center">
       <table class="table table-dark table-hover " style="width: 50%;">
          <thead>
