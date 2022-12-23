@@ -5,7 +5,7 @@
       </a>
     </div>
   </div>
-  <nav class="navbar navbar-expand-xxl navbar-dark justify-content-center rounded" style="background-color: #191919;">
+  <nav class="navbar navbar-expand-xxl navbar-dark justify-content-center rounded mb-5" style="background-color: #191919;">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
