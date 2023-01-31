@@ -5,7 +5,7 @@
     @include('includes.head')
 </head>
 
-<body class="container-fluid bg-black"  onload="checkCookieLanguage()">
+<body class="container-fluid bg-black" onload="checkCookieLanguage()" style="font-family:cursive">
 
     <div class="container">
         <header class="row">
@@ -18,7 +18,7 @@
     <footer class="row">
         @include('includes.footer')
     </footer>
-    
+
 </body>
 
 </html>

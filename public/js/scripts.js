@@ -52,8 +52,9 @@ function getCookie(name) {
     return null;
 }
 
-function eraseCookie(name) {   
-    document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+function eraseCookie(name) {
+    document.cookie =
+        name + "=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;";
 }
 
 function checkCookieLanguage() {
@@ -76,32 +77,41 @@ function setLanguage(lang) {
             break;
     }
 }
-
-function check_cameras(){
-    const a=new Date();
-    b=a.getDay();
-    c=a.getHours();
-    d=a.getMinutes();
-    //Check if mon-fri
-    if((b>=1)&&(b<=5)){
-        //check if later than 8:00 or 7:45
-        if((c>7)||((c==7)&&(d>=45))){
-            //check if earlier than 17:00 or 17:45
-            if((c<17)||((c==17)&&(d<=45))){
-            //pass? let them see camera
-            document.getElementById("camera_workshop").setAttribute("class", "camera_unhidden"); 
-            }
-        }
-    }
-    //Check if saturday
-    if(b==6){
-        //check if later than 8:00 or 7:45
-        if((c>7)||((c==7)&&(d>=45))){
-            //check if earlier than 12:00 or 12:45
-            if((c<12)||((c==12)&&(d<=45))){
-            //pass? let them see camera
-            document.getElementById("camera_workshop").setAttribute("class", "camera_unhidden"); 
-            }
-        }
-    }
+function httpsGetJson(theUrl) {
+    return fetch(theUrl, {
+        method: "GET",
+        headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+        },
+    }).then((response) => response.json());
+}
+function IsWorkingHour(wh, date) {
+    let weekDay = date.getDay();
+    if (wh.Days[weekDay].state == false) return false;
+    let hour = date.getHours();
+    let minute = date.getMinutes();
+    let startTime = wh.Days[weekDay].from;
+    let endTime = wh.Days[weekDay].to;
+    let startHour = parseInt(startTime.substr(0, 2));
+    let startMin = parseInt(startTime.substr(2, 4));
+    let endHour = parseInt(endTime.substr(0, 2));
+    let endMin = parseInt(endTime.substr(2, 4));
+    if (hour < startHour || hour > endHour) return false;
+    if (hour == startHour && minute < startMin) return false;
+    if (hour == endHour && minute > endMin) return false;
+    return true;
+}
+function check_cameras() {
+    (async () => {
+        const response = await httpsGetJson(
+            "/api/workingHours"
+        );
+        const date = new Date();
+        //date.setHours(15);
+        if (IsWorkingHour(response, date))
+            document
+                .getElementById("camera_workshop")
+                .setAttribute("class", "camera_unhidden");
+    })();
 }

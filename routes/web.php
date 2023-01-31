@@ -13,39 +13,45 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 
-function () 
-{
-    return view('pages.home');
-}
+Route::get(
+    '/',
+    function () {
+        return view('pages.home');
+    }
 );
-Route::get('/queue', 
-function () 
-{
-    return view('pages.queue');
-}
+Route::get(
+    '/queue',
+    function () {
+        return view('pages.queue');
+    }
 );
-Route::get('/pricing', 
-function () 
-{
-    return view('pages.pricing');
-}
+Route::get(
+    '/pricing',
+    function () {
+        return view('pages.pricing');
+    }
 );
-Route::get('/contact', 
-function () 
-{
-    return view('pages.contact');
-}
+Route::get(
+    '/contact',
+    function () {
+        return view('pages.contact');
+    }
 );
-Route::get('/privacy', 
-function () 
-{
-    return view('pages.privacy');
-}
+Route::get(
+    '/privacy',
+    function () {
+        return view('pages.privacy');
+    }
 );
-Route::get('/gallery', 
-function () 
-{
-    return view('pages.gallery');
-}
+Route::get(
+    '/gallery',
+    function () {
+        return view('pages.gallery');
+    }
+);
+Route::get(
+    '/api/workingHours',
+    function () {
+        return response()->file(resource_path('json\workingHours.json'));
+    }
 );

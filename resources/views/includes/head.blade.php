@@ -8,6 +8,27 @@
 <script type="text/javascript" src="js/scripts.js"></script>
 <!-- AOS library-->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/style.css" />
 <!-- reCAPTCHA
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>-->
+<script type="text/javascript">
+    function callbackThen(response) {
+        // read HTTP status
+        console.log(response.status);
+
+        // read Promise object
+        response.json().then(function(data) {
+            console.log(data);
+        });
+    }
+
+    function callbackCatch(error) {
+        console.error('Error:', error)
+    }
+
+</script>
+{!! htmlScriptTagJsApi([
+'action' => 'homepage',
+'callback_then' => 'callbackThen',
+'callback_catch' => 'callbackCatch'
+]) !!}
