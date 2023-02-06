@@ -57,11 +57,25 @@ function eraseCookie(name) {
         name + "=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;";
 }
 
+function httpsGetJson(theUrl) {
+    return fetch(theUrl, {
+        method: "GET",
+        headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+        },
+    }).then((response) => response.json());
+}
+
 function checkCookieLanguage() {
     let langauge = getCookie("language");
     if (langauge == null) {
         setCookie("language", "pl", 14);
     }
+    (async () => {
+        const response = await httpsGetJson("/api/languages");
+        changeSiteLanguage(response);
+    })();
 }
 
 function setLanguage(lang) {
@@ -76,16 +90,28 @@ function setLanguage(lang) {
             setCookie("language", "de", 14);
             break;
     }
+    checkCookieLanguage();
 }
-function httpsGetJson(theUrl) {
-    return fetch(theUrl, {
-        method: "GET",
-        headers: {
-            Accept: "application/json",
-            "Content-Type": "application/json",
-        },
-    }).then((response) => response.json());
+
+function changeSiteLanguage(languages) {
+    var lang = getCookie("language");
+    for (var i = 0; i < languages.Languages.length; i++) {
+        var element = document.getElementById(languages.Languages[i].id);
+        if (!element) continue;
+        switch (lang) {
+            case "pl":
+                element.textContent = languages.Languages[i].pl;
+                break;
+            case "en":
+                element.textContent = languages.Languages[i].en;
+                break;
+            case "de":
+                element.textContent = languages.Languages[i].de;
+                break;
+        }
+    }
 }
+
 function IsWorkingHour(wh, date) {
     let weekDay = date.getDay();
     if (wh.Days[weekDay].state == false) return false;
@@ -104,9 +130,7 @@ function IsWorkingHour(wh, date) {
 }
 function check_cameras() {
     (async () => {
-        const response = await httpsGetJson(
-            "/api/workingHours"
-        );
+        const response = await httpsGetJson("/api/workingHours");
         const date = new Date();
         //date.setHours(15);
         if (IsWorkingHour(response, date))
@@ -115,3 +139,6 @@ function check_cameras() {
                 .setAttribute("class", "camera_unhidden");
     })();
 }
+document.addEventListener("DOMContentLoaded", function () {
+    checkCookieLanguage();
+});

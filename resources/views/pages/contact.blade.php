@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
 <div class="d-flex justify-content-center text-light" style="margin-top: 5%; margin-bottom: 5%;">
-    <h1>Kontakt</h1>
+    <h1 id="contact1"></h1>
 </div>
 <div class="container text-center text-light" style="max-width: 500px;">
     <div class="row">
@@ -15,11 +15,11 @@
 
 
         <div class="col">
-            Godziny otwarcia:<br>
-            Pon-pt: 8:00-18:00<br>
-            Sob: 8:00-13:00<br>
-            Pawłosiów 4c<br>
-            37-500 Jarosław<br></p>
+            <div id="contact2"></div>
+            <div id="contact3"></div>
+            <div id="contact4"></div>
+            <div id="contact5"></div>
+            <div id="contact6"></div></p>
         </div>
     </div>
 </div>

@@ -1,0 +1,328 @@
+{
+    "Languages": [
+        {
+            "id": "navMainSite",
+            "pl": "Strona główna",
+            "en": "Home",
+            "de": "Heim"
+        },
+        {
+            "id": "navQueue",
+            "pl": "Kolejka",
+            "en": "Queue",
+            "de": "Warteschlange"
+        },
+        {
+            "id": "navContact",
+            "pl": "Kontakt",
+            "en": "Contact",
+            "de": "Kontakt"
+        },
+        {
+            "id": "navGallery",
+            "pl": "Galeria",
+            "en": "Gallery",
+            "de": "Galerie"
+        },
+        {
+            "id": "footCookie1",
+            "pl": "Ta strona wykorzystuje pliki cookie do analizowania ruchu i mierzenia skuteczności reklam.",
+            "en": "This website uses cookies to analyze traffic and measure ad effectiveness.",
+            "de": "Diese Website verwendet Cookies, um den Datenverkehr zu analysieren und die Wirksamkeit von Anzeigen zu messen."
+        },
+        {
+            "id": "footCookie2",
+            "pl": "Więcej informacji o tym, jak używamy plików cookie",
+            "en": "More information on how we use cookies",
+            "de": "Weitere Informationen darüber, wie wir Cookies verwenden"
+        },
+        {
+            "id": "btnAccept",
+            "pl": "Akceptuję, zamknij",
+            "en": "I accept, close",
+            "de": "Ich akzeptiere, schließen"
+        },
+        {
+            "id": "footNav",
+            "pl": "Nawigacja",
+            "en": "Navigation",
+            "de": "Navigation"
+        },
+        {
+            "id": "footNav1",
+            "pl": "Strona główna",
+            "en": "Home",
+            "de": "Heim"
+        },
+        {
+            "id": "footNav2",
+            "pl": "Kolejka",
+            "en": "Queue",
+            "de": "Warteschlange"
+        },
+        {
+            "id": "footNav3",
+            "pl": "Kontakt",
+            "en": "Contact",
+            "de": "Kontakt"
+        },
+        {
+            "id": "footNav4",
+            "pl": "Galeria",
+            "en": "Gallery",
+            "de": "Galerie"
+        },
+        {
+            "id": "footNav5",
+            "pl": "Polityka prywatności",
+            "en": "Privacy policy",
+            "de": "Datenschutz-Bestimmungen"
+        },
+        {
+            "id": "footLinks",
+            "pl": "Przydatne linki",
+            "en": "Useful links",
+            "de": "Nützliche Links"
+        },
+        {
+            "id": "error1",
+            "pl": "Coś poszło nie tak...",
+            "en": "Something went wrong...",
+            "de": "Etwas ist schief gelaufen..."
+        },
+        {
+            "id": "error2",
+            "pl": "Wróć na stronę główną.",
+            "en": "Go back to the homepage.",
+            "de": "Gehen Sie zurück zur Startseite."
+        },
+        {
+            "id": "contact1",
+            "pl": "Kontakt",
+            "en": "Contact",
+            "de": "Kontact"
+        },
+        {
+            "id": "contact2",
+            "pl": "Godziny otwarcia:",
+            "en": "Opening hours:",
+            "de": "Öffnungszeiten:"
+        },
+        {
+            "id": "contact3",
+            "pl": "Pon-pt: 8:00-18:00",
+            "en": "Mon-Fri: 8:00-18:00",
+            "de": "Mo-Fr: 8:00-18:00"
+        },
+        {
+            "id": "contact4",
+            "pl": "Sob: 8:00-13:00",
+            "en": "Sat: 8:00-13:00",
+            "de": "Sa: 8:00-13:00"
+        },
+        {
+            "id": "contact5",
+            "pl": "Pawłosiów 4c",
+            "en": "Pawlosiow 4c",
+            "de": "Pawlosiow 4c"
+        },
+        {
+            "id": "contact6",
+            "pl": "37-500 Jarosław",
+            "en": "37500 Jaroslaw Poland",
+            "de": "37500 Jaroslaw Polen"
+        },
+        {
+            "id": "homeDiv11",
+            "pl": "Serwis Opon Majcher",
+            "en": "Tire Service Majcher",
+            "de": "Reifenservice Majcher"
+        },
+        {
+            "id": "homeDiv12",
+            "pl": "Profesjonalna wulkanizacja i wymiana opon",
+            "en": "Professional vulcanization and tire replacement",
+            "de": "Professionelle Vulkanisation und Reifenwechsel"
+        },
+        {
+            "id": "homeDiv13",
+            "pl": "Jesteśmy doświadczonym i profesjonalnym zespołem, który oferuje szeroki zakres usług wulkanizacyjnych. Nasze usługi obejmują wymianę opon, naprawy opon i dętek, wyważanie kół i inne naprawy powiązane z oponami. Posiadamy nowoczesny sprzęt i korzystamy tylko z najlepszych produktów, aby zapewnić naszym klientom najlepsze rezultaty. Zawsze staramy się, aby nasze usługi były szybkie i skuteczne, dlatego możesz być pewny, że Twoje koła zostaną naprawione jak najlepiej. Zapraszamy do odwiedzenia naszej siedziby lub do kontaktu telefonicznego. Jesteśmy gotowi do pomocy i udzielania wszelkich informacji potrzebnych do wyboru najlepszych opon dla Twojego samochodu.",
+            "en": "We are an experienced and professional team that offers a wide range of vulcanization services. Our services include tire changes, tire and tube repairs, wheel balancing and other tire related repairs. We have modern equipment and use only the best products to provide our customers with the best results. We always try to make our services quick and effective, so you can be sure that your wheels will be repaired in the best possible way. We invite you to visit our office or contact us by phone. We are ready to help and provide all the information needed to choose the best tires for your car.",
+            "de": "Wir sind ein erfahrenes und professionelles Team, das eine breite Palette von Vulkanisationsdienstleistungen anbietet. Unsere Dienstleistungen umfassen Reifenwechsel, Reifen- und Schlauchreparaturen, Radwuchten und andere reifenbezogene Reparaturen. Wir verfügen über eine moderne Ausrüstung und verwenden nur die besten Produkte, um unseren Kunden die besten Ergebnisse zu liefern. Wir versuchen immer, unsere Dienstleistungen schnell und effektiv zu machen, damit Sie sicher sein können, dass Ihre Räder auf die bestmögliche Weise repariert werden. Wir laden Sie ein, unser Büro zu besuchen oder uns telefonisch zu kontaktieren. Wir sind bereit, Ihnen zu helfen und Ihnen alle Informationen zu geben, die Sie benötigen, um die besten Reifen für Ihr Auto auszuwählen."
+        },
+        {
+            "id": "homeDiv21",
+            "pl": "Opony w samochodach osobowych",
+            "en": "Passenger car tires",
+            "de": "Pkw-Reifen"
+        },
+        {
+            "id": "homeDiv22",
+            "pl": "Wymiana opon: Nasz zespół jest w stanie szybko i skutecznie wymienić opony w Twoim samochodzie, aby zapewnić bezpieczeństwo i wygodę jazdy,",
+            "en": "Tire change: Our team is able to quickly and efficiently replace the tires on your car to ensure the safety and comfort of driving,",
+            "de": "Reifenwechsel: Unser Team ist in der Lage, die Reifen Ihres Autos schnell und effizient auszutauschen, um die Sicherheit und den Fahrkomfort zu gewährleisten."
+        },
+        {
+            "id": "homeDiv23",
+            "pl": "Wyważanie kół: Nasze usługi wyważania kół zapewniają najwyższy poziom, co pozwala uniknąć drgań oraz zapewnia płynną i komfortową jazdę,",
+            "en": "Wheel balancing: Our wheel balancing services provide the highest level of service, which avoids vibrations and ensures a smooth and comfortable ride,",
+            "de": "Radauswuchten: Unsere Radauswuchtdienste bieten ein Höchstmaß an Service, wodurch Vibrationen vermieden und eine reibungslose und komfortable Fahrt gewährleistet werden."
+        },
+        {
+            "id": "homeDiv24",
+            "pl": "Naprawa kół: Nasz zespół jest w stanie szybko i skutecznie naprawić uszkodzenia kół jaki i dętek, aby zapewnić bezpieczeństwo i trwałość,",
+            "en": "Wheel repair: Our team is able to quickly and efficiently repair damage to wheels and tubes to ensure safety and durability,",
+            "de": "Radreparatur: Unser Team ist in der Lage, Schäden an Rädern und Schläuchen schnell und effizient zu reparieren, um Sicherheit und Haltbarkeit zu gewährleisten."
+        },
+        {
+            "id": "homeDiv25",
+            "pl": "Obsługa niskoprofilowych opon: Nasze usługi obejmują również obsługę niskoprofilowych opon, które są coraz bardziej popularne wśród nowoczesnych aut,",
+            "en": "Low profile tire service: Our services also include low profile tire service, which is becoming more and more popular on modern cars,",
+            "de": "Niederquerschnittsreifenservice: Zu unseren Dienstleistungen gehört auch der Niederquerschnittsreifenservice, der bei modernen Autos immer beliebter wird,"
+        },
+        {
+            "id": "homeDiv26",
+            "pl": "Obsługa opon typu Run On Flat: Nasz zespół jest w stanie również obsłużyć opony typu Run On Flat, które pozwalają kontynuować jazdę nawet po uszkodzeniu,",
+            "en": "Run On Flat tire service: Our team is also able to service Run On Flat tyres, which allow you to continue driving even after damage,",
+            "de": "Run On Flat-Reifenservice: Unser Team ist auch in der Lage, Run On Flat-Reifen zu warten, mit denen Sie auch nach einem Schaden weiterfahren können."
+        },
+        {
+            "id": "homeDiv27",
+            "pl": "Sezonowe przechowywanie koł lub opon: (brak wolnych miejsc obecnie).",
+            "en": "Seasonal wheel or tire storage: (No vacancies currently).",
+            "de": "Saisonale Einlagerung von Rädern oder Reifen: (derzeit keine offenen Stellen)."
+        },
+        {
+            "id": "homeDiv31",
+            "pl": "Pojazdy rolnicze i ciężarowe",
+            "en": "Agricultural vehicles and trucks",
+            "de": "Landwirtschaftliche Fahrzeuge und Lastwagen"
+        },
+        {
+            "id": "homeDiv32",
+            "pl": "Oprócz usług dla samochodów osobowych, nasz zakład również zajmuje się wymianą i naprawą kół ciężarowych i rolniczych. Nasz zespół posiada wiedzę i narzędzia potrzebne do zapewnienia skutecznej i szybkiej obsługi wszystkich rodzajów pojazdów ciężarowych i rolniczych.",
+            "en": "In addition to services for passenger cars, our plant also deals with the replacement and repair of truck and agricultural wheels. Our team has the knowledge and tools needed to provide effective and fast service for all types of trucks and agricultural vehicles.",
+            "de": "Neben Dienstleistungen für Pkw befasst sich unser Werk auch mit dem Austausch und der Reparatur von Lkw- und Landwirtschaftsrädern. Unser Team verfügt über das Wissen und die Werkzeuge, die für einen effektiven und schnellen Service für alle Arten von Lastkraftwagen und landwirtschaftlichen Fahrzeugen erforderlich sind."
+        },
+        {
+            "id": "homeDiv41",
+            "pl": "Motocykle",
+            "en": "Motorcycles",
+            "de": "Motorräder"
+        },
+        {
+            "id": "homeDiv42",
+            "pl": "Poza usługami dla samochodów osobowych i pojazdów ciężarowych, nasz zakład wulkanizacyjny również świadczy usługi wymiany, wyważania i naprawy kół motocyklowych. Nasz zespół posiada specjalistyczną wiedzę i doświadczenie, które pozwala na zapewnienie skutecznej i szybkiej obsługi większości typów motocykli.",
+            "en": "In addition to services for cars and trucks, our vulcanization plant also provides services for replacing, balancing and repairing motorcycle wheels. Our team has specialist knowledge and experience that allows us to provide effective and quick service for most types of motorcycles.",
+            "de": "Neben Dienstleistungen für Pkw und Lkw bietet unser Vulkanisationswerk auch Dienstleistungen für den Austausch, das Auswuchten und die Reparatur von Motorradrädern an. Unser Team verfügt über Fachwissen und Erfahrung, die es uns ermöglichen, einen effektiven und schnellen Service für die meisten Motorradtypen anzubieten."
+        },
+        {
+            "id": "homeDiv51",
+            "pl": "Klimatyzacja w pojazdach",
+            "en": "Air conditioning in vehicles",
+            "de": "Klimaanlage in Fahrzeugen"
+        },
+        {
+            "id": "homeDiv52",
+            "pl": "Oprócz standardowych usług wulkanizacyjnych, nasz zakład oferuje także obsługę klimatyzacji samochodowej. Nasz wykwalifikowany zespół sprawdza szczelność układu, uzupełnia czynnik i odgrzybia system klimatyzacji, zapewniając zdrowe i czyste powietrze w kabinie samochodu. Zapraszamy do skorzystania z naszej usługi klimatyzacji i cieszenia się komfortem jazdy w upalne dni.",
+            "en": "In addition to standard vulcanization services, our plant also offers car air conditioning service. Our qualified team checks the tightness of the system, replenishes the factor and removes fungus from the air conditioning system, ensuring healthy and clean air in the car cabin. We invite you to use our air conditioning service and enjoy the comfort of driving on hot days.",
+            "de": "Zusätzlich zu den Standard-Vulkanisationsdiensten bietet unser Werk auch den Service der Autoklimatisierung an. Unser qualifiziertes Team prüft die Dichtheit des Systems, füllt den Faktor auf und entfernt Pilze aus der Klimaanlage und sorgt so für gesunde und saubere Luft im Autoinnenraum. Wir laden Sie ein, unseren Klimaservice zu nutzen und den Fahrkomfort an heißen Tagen zu genießen."
+        },
+        {
+            "id": "homeDiv61",
+            "pl": "Systemy monitorowania ciśnienia w oponach",
+            "en": "Tire pressure monitor systems",
+            "de": "Reifendrucküberwachungssysteme"
+        },
+        {
+            "id": "homeDiv62",
+            "pl": "Oprócz wymiany i naprawy kół oraz klimatyzacji, nasz zakład również świadczy usługi związane z czujnikami ciśnienia powietrza w kołach. Obsługujemy oryginalne czujniki, a także sprzedajemy i programujemy nowe czujniki TPMS (Tire Pressure Monitoring System - System Monitorowania Ciśnienia w Oponach).",
+            "en": "In addition to the replacement and repair of wheels and air conditioning, our plant also provides services related to air pressure sensors in the wheels. We service original sensors, as well as sell and program new TPMS (Tire Pressure Monitoring System) sensors.",
+            "de": "Neben dem Austausch und der Reparatur von Rädern und Klimaanlagen bietet unser Werk auch Dienstleistungen rund um Luftdrucksensoren in den Rädern an. Wir warten Originalsensoren und verkaufen und programmieren neue TPMS-Sensoren (Reifendrucküberwachungssystem)."
+        },
+        {
+            "id": "queue1",
+            "pl": "Kolejka",
+            "en": "Queue",
+            "de": "Warteschlange"
+        },
+        {
+            "id": "queue2",
+            "pl": "Udostępniamy możliwość sprawdzenia aktualnej kolejki na wymianę opon oraz na myjnię",
+            "en": "We provide the opportunity to check the current queue for tire replacement and car wash",
+            "de": "Wir bieten die Möglichkeit, die aktuelle Warteschlange für Reifenwechsel und Autowäsche zu überprüfen"
+        },
+        {
+            "id": "queue3",
+            "pl": "Czas dostępności kamer",
+            "en": "Camera availability time",
+            "de": "Verfügbarkeitszeit der Kamera"
+        },
+        {
+            "id": "queueTable1",
+            "pl": "Kamera na warsztat",
+            "en": "Workshop camera",
+            "de": "Werkstattkamera"
+        },
+        {
+            "id": "queeuTable2",
+            "pl": "poniedziałek-piątek",
+            "en": "Monday-Friday",
+            "de": "Montag-Freitag"
+        },
+        {
+            "id": "queueTable4",
+            "pl": "sobota",
+            "en": "Saturday",
+            "de": "Samstag"
+        },
+        {
+            "id": "queueTable6",
+            "pl": "niedziela",
+            "en": "Sunday",
+            "de": "Sonntag"
+        },
+        {
+            "id": "queueTable7",
+            "pl": "niedostępne",
+            "en": "not available",
+            "de": "nicht verfügbar"
+        },
+        {
+            "id": "queueTable8",
+            "pl": "Kamera na myjnię",
+            "en": "Car wash camera",
+            "de": "Kamera für Autowäsche"
+        },
+        {
+            "id": "queueTable9",
+            "pl": "cały tydzień",
+            "en": "whole week",
+            "de": "eine ganze Woche"
+        },
+        {
+            "id": "queueTable10",
+            "pl": "dostępne całodobowo",
+            "en": "available 24/7",
+            "de": "rund um die Uhr verfügbar"
+        },
+        {
+            "id": "queue4",
+            "pl": "Aktualna kolejka do warsztatu:",
+            "en": "The current queue for the workshop:",
+            "de": "Die aktuelle Warteschlange für den Workshop:"
+        },
+        {
+            "id": "queue5",
+            "pl": "Aktualna kolejka do myjni:",
+            "en": "The current queue to the car wash:",
+            "de": "Die aktuelle Warteschlange zur Waschanlage:"
+        },
+        {
+            "id": "queue6",
+            "pl": "Nie dotyczy dni świątecznych",
+            "en": "Does not apply to public holidays",
+            "de": "Gilt nicht an Feiertagen"
+        }
+    ]
+}

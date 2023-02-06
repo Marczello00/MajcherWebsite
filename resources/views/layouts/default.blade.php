@@ -5,7 +5,7 @@
     @include('includes.head')
 </head>
 
-<body class="container-fluid bg-black" onload="checkCookieLanguage()" style="font-family:cursive">
+<body class="container-fluid bg-black" onload="" style="font-family: 'Signika Negative', sans-serif;">
 
     <div class="container">
         <header class="row">

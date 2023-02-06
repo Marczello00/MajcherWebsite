@@ -14,11 +14,9 @@
     margin-top: 5%;
   ">
     <div data-aos="fade-left" data-aos-duration="1000" class="text-center text-light" style="margin-top: 10%;">
-        <h1>Serwis Opon Majcher</h1>
-        <p> Profesjonalna wulkanizacja i wymiana opon<br>
-            Nasz zakład w Pawłosiowie specjalizuje się świadczeniem usług wulkanizacyjnych.
-            Zajmujemy się przede wszystkim wulkanizacją, czyli naprawą opon oraz ich sezonową wymianą.<br>
-            W naszej ofercie posiadamy również nowe opony jak i hotel dla kół lub opon. Obsługujemy samochody, motocykle i nie tylko:</p>
+        <h1 id="homeDiv11"></h1>
+        <div id="homeDiv12"></div>
+        <div id="homeDiv13" style="margin-left: 5vw; margin-right: 5vw;"></div>
     </div>
 </div>
 
@@ -32,13 +30,15 @@
     height: 90vh;
     margin-top: 10%;">
     <div data-aos="fade-right" data-aos-duration="1000" class="text-center text-light" style="margin-top: 10%;">
-        <h2>Opony w samochodach osobowych:</h2>
-        <p>wymiana<br>
-            wyważanie<br>
-            naprawa<br>
-            obsługa niskoprofilowych opon<br>
-            obsługa opon typu Run On Flat<br>
-            sezonowe przechowywanie koł lub opon (brak wolnych miejsc obecnie)<br></p>
+        <h2 id="homeDiv21"></h2>
+        <ul style="list-style-type: none; margin-left: 5vw; margin-right: 5vw;">
+            <li id="homeDiv22"></li>
+            <li id="homeDiv23"></li>
+            <li id="homeDiv24"></li>
+            <li id="homeDiv25"></li>
+            <li id="homeDiv26"></li>
+            <li id="homeDiv27"></li>
+        </ul>
     </div>
 </div>
 
@@ -52,9 +52,9 @@
     height: 90vh;
     margin-top: 10%;">
     <div data-aos="fade-right" data-aos-duration="1000" class="text-center text-light" style="margin-top: 10%;">
-        <h2>Opony rolnicze i ciężarowe:</h2>
-        <h2>wymiana<br>
-            naprawa<br></h2>
+        <h2 id="homeDiv31"></h2>
+        <div id="homeDiv32" style="margin-left: 5vw; margin-right: 5vw;"></div>
+        <div></div>
     </div>
 </div>
 
@@ -68,10 +68,8 @@
     height: 90vh;
     margin-top: 10%;">
     <div data-aos="fade-right" data-aos-duration="1000" class="text-center text-light" style="margin-top: 10%;">
-        <h2>Opony motocyklowe:</h2>
-        <h2>wymiana<br>
-            wyważanie<br>
-            naprawa<br></h2>
+        <h2 id="homeDiv41"></h2>
+        <div id="homeDiv42" style="margin-left: 5vw; margin-right: 5vw;"></div>
     </div>
 </div>
 
@@ -85,10 +83,8 @@
     height: 90vh;
     margin-top: 10%;">
     <div data-aos="fade-right" data-aos-duration="1000" class="text-center text-light" style="margin-top: 10%;">
-        <h2>Klimatyzacja w pojazdach:</h2>
-        <h2>sprawdzanie szczelności<br>
-            uzupełnianie czynnika<br>
-            odgrzybianie<br></h2>
+        <h2 id="homeDiv51"></h2>
+        <div id="homeDiv52" style="margin-left: 5vw; margin-right: 5vw;"></div>
     </div>
 </div>
 
@@ -101,11 +97,8 @@
     height: 90vh;
     margin-top: 10%;">
     <div data-aos="fade-right" data-aos-duration="1000" class="text-center text-light" style="margin-top: 10%;">
-        <h2>Czujniki ciśnienia w kołach:</h2>
-        <h2>naprawa<br>
-            wymiana<br>
-            programowanie<br>
-            sprzedaż nowych<br></h2>
+        <h2 id="homeDiv61"></h2>
+        <div id="homeDiv62" style="margin-left: 5vw; margin-right: 5vw;"></div>
     </div>
 </div>
 

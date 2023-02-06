@@ -55,3 +55,9 @@ Route::get(
         return response()->file(resource_path('json\workingHours.json'));
     }
 );
+Route::get(
+    '/api/languages',
+    function () {
+        return response()->file(resource_path('json\langTable.json'));
+    }
+);
