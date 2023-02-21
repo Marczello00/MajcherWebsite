@@ -4,8 +4,8 @@
             <img class="img-fluid" src="img/logo.png" style="height: 15vh; ">
         </a>
     </div>
-  </div>
-  <nav class="navbar navbar-expand-xxl navbar-dark justify-content-center rounded mb-5" style="background-color: #191919;">
+</div>
+<nav class="navbar navbar-expand-xxl navbar-dark justify-content-center rounded mb-5" style="background-color: #191919;">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -13,7 +13,8 @@
         <a class="navbar-brand" id="navMainSite" href="/"></a>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <a class="nav-link" id="navQueue" href="queue"></a>
+                <li class="nav-item">
+                    <a class="nav-link" id="navQueue" href="queue"></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="navContact" href="contact"></a>

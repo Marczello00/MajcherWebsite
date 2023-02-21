@@ -1,6 +1,14 @@
-.camera_hidden{
+.camera_hidden {
     visibility: hidden;
 }
-.camera.unhidden{
-    visibility: none;;
+.camera.unhidden {
+    visibility: none;
+}
+.navbar-brand,
+.nav-item {
+    transition: all 0.3s ease-in-out;
+}
+.navbar-brand:hover,
+.nav-item:hover {
+    transform: scale(1.5);
 }

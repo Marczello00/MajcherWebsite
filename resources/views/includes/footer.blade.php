@@ -9,8 +9,9 @@
     <div class="toast bg-dark text-white w-100 mw-100" role="alert" data-bs-autohide="false">
         <div class="toast-body p-4 d-flex flex-column">
             <div class="d-flex flex-row p-2">
-            <div id="footCookie1"></div>
-            <div><a id="footCookie2" href='/privacy'>bbb</a></div></div>
+                <div id="footCookie1"></div>
+                <div><a id="footCookie2" href='/privacy'></a></div>
+            </div>
             <div class="ml-auto">
                 <button type="button" class="btn btn-light" id="btnAccept">
                 </button>
@@ -19,21 +20,31 @@
     </div>
 </div>
 <script>
+    // Function to show the cookie consent toast
     function cookieConsent() {
+        // Check if the cookie 'allowCookies' exists
         if (!getCookie('allowCookies')) {
+            // If the cookie does not exist, show the toast
             $('.toast').toast('show')
         }
     }
 
+    // Action to take when the 'Deny' button is clicked
     $('#btnDeny').click(() => {
+        // Delete the cookie 'allowCookies'
         eraseCookie('allowCookies')
+        // Hide the toast
         $('.toast').toast('hide')
     })
 
+    // Action to take when the 'Accept' button is clicked
     $('#btnAccept').click(() => {
+        // Create a new cookie 'allowCookies' with the value '1' and an expiration date of 7 days
         setCookie('allowCookies', '1', 7)
+        // Hide the toast
         $('.toast').toast('hide')
     })
+    // Run the function when the page is ready
     $(document).ready(function() {
         cookieConsent()
     });
