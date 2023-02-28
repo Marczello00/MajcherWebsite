@@ -8,9 +8,9 @@
 <div class="fixed-bottom p-4">
     <div class="toast bg-dark text-white w-100 mw-100" role="alert" data-bs-autohide="false">
         <div class="toast-body p-4 d-flex flex-column">
-            <p>
-                <p id="footCookie1"></p> <a id="footCookie2" href='/privacy'></a>
-            </p>
+            <div class="d-flex flex-row p-2">
+            <div id="footCookie1"></div>
+            <div><a id="footCookie2" href='/privacy'>bbb</a></div></div>
             <div class="ml-auto">
                 <button type="button" class="btn btn-light" id="btnAccept">
                 </button>
