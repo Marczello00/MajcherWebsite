@@ -62,28 +62,27 @@ function watchForHover() {
     // that are fired after touchstart events. Since they're
     // indistinguishable from real events, we use the fact that they're
     // fired a few milliseconds after touchstart to filter them.
-    let lastTouchTime = 0
-  
-    function enableHover() {
-      if (new Date() - lastTouchTime < 500) return
-      document.body.classList.add('hasHover')
-    }
-  
-    function disableHover() {
-      document.body.classList.remove('hasHover')
-    }
-  
-    function updateLastTouchTime() {
-      lastTouchTime = new Date()
-    }
-  
-    document.addEventListener('touchstart', updateLastTouchTime, true)
-    document.addEventListener('touchstart', disableHover, true)
-    document.addEventListener('mousemove', enableHover, true)
-  
-    enableHover()
-  }
+    let lastTouchTime = 0;
 
+    function enableHover() {
+        if (new Date() - lastTouchTime < 500) return;
+        document.body.classList.add("hasHover");
+    }
+
+    function disableHover() {
+        document.body.classList.remove("hasHover");
+    }
+
+    function updateLastTouchTime() {
+        lastTouchTime = new Date();
+    }
+
+    document.addEventListener("touchstart", updateLastTouchTime, true);
+    document.addEventListener("touchstart", disableHover, true);
+    document.addEventListener("mousemove", enableHover, true);
+
+    enableHover();
+}
 
 function httpsGetJson(theUrl) {
     return fetch(theUrl, {
@@ -167,7 +166,71 @@ function check_cameras() {
                 .setAttribute("class", "camera_unhidden");
     })();
 }
+/*
+Paleta:
+jasne:   F3F1F5  F0D9FF  BFA2DB  7F7C82
+ciemne:  000000  3E065F  700B97  8E05C2
+*/
+function setColorScheme(colorScheme) {
+    if (colorScheme == 1) {
+        //Set white theme
+        const background = document.getElementsByClassName("bg-black")[0];
+        if (background) {
+            background.classList.remove("bg-black");
+            background.classList.add("bg-white");
+        }
+        const navbar = document.getElementsByClassName("navbar-dark")[0];
+        if (navbar) {
+            navbar.classList.remove("navbar-dark");
+            navbar.classList.add("navbar-white");
+            navbar.style["background-color"] = "#F0D9FF";
+        }
+
+        const logo = document.getElementById("imgLogo");
+        logo ? (logo.src = "img/logo-white.png") : null;
+
+        const imgLanguage = document.getElementById("imgLanguage");
+        imgLanguage ? (imgLanguage.src = "img/language-white.png") : null;
+
+        const imgTheme = document.getElementById("imgTheme");
+        imgTheme ? (imgTheme.src = "img/theme-white.png") : null;
+
+        const footer = document.getElementsByClassName("card")[0];
+        footer
+            ? (footer.style.cssText = "background-color: #F0D9FF; color: #000;")
+            : null;
+    }
+    if (colorScheme == 2) {
+        //Set dark theme
+        const background = document.getElementsByClassName("bg-white")[0];
+        if (background) {
+            background.classList.remove("bg-white");
+            background.classList.add("bg-black");
+        }
+        const navbar = document.getElementsByClassName("navbar-white")[0];
+        if (navbar) {
+            navbar.classList.remove("navbar-white");
+            navbar.classList.add("navbar-dark");
+            navbar.style["background-color"] = "#3E065F";
+        }
+
+        const logo = document.getElementById("imgLogo");
+        logo ? (logo.src = "img/logo-dark.png") : null;
+
+        const imgLanguage = document.getElementById("imgLanguage");
+        imgLanguage ? (imgLanguage.src = "img/language-dark.png") : null;
+
+        const imgTheme = document.getElementById("imgTheme");
+        imgTheme ? (imgTheme.src = "img/theme-dark.png") : null;
+
+        const footer = document.getElementsByClassName("card")[0];
+        footer
+            ? (footer.style.cssText = "background-color: #3E065F; color: #fff;")
+            : null;
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     checkCookieLanguage();
-    watchForHover()
+    watchForHover();
 });

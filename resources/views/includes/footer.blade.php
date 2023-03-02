@@ -6,7 +6,7 @@
 </script>
 <!-- cookie warning toast -->
 <div class="fixed-bottom p-4">
-    <div class="toast bg-dark text-white w-100 mw-100" role="alert" data-bs-autohide="false">
+    <div class="toast bg-black text-white w-100 mw-100" role="alert" data-bs-autohide="false">
         <div class="toast-body p-4 d-flex flex-column">
             <div class="d-flex flex-row p-2">
                 <div id="footCookie1"></div>
@@ -51,7 +51,7 @@
 
 </script>
 
-<div class="card" style="background-color: #191919; color: #fff;">
+<div class="card" style="background-color: #3E065F; color: #fff;">
 
     <div class="container text-center">
         <div class="row align-items-start">

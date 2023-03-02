@@ -1,11 +1,11 @@
-<div class="container bg-black">
+<div class="container" style="margin-bottom: 30px;">
     <div class="d-flex justify-content-center" style="margin-top:3%;">
         <a id="logo" href="/">
-            <img class="img-fluid" src="img/logo.png" style="height: 15vh; ">
+            <img id="imgLogo" class="img-fluid" src="img/logo-dark.png" style="height: 15vh; ">
         </a>
     </div>
 </div>
-<nav class="navbar navbar-expand-xxl navbar-dark justify-content-center rounded mb-5" style="background-color: #191919;">
+<nav class="navbar navbar-expand-xxl navbar-dark justify-content-center rounded mb-5" style="background-color: #3E065F;">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
                 <li class="nav-item">{{-- Change language here --}}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="img/language-dark.png" alt="" width="30vh">
+                        <img id="imgLanguage" src="img/language-dark.png" alt="" width="30vh">
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" onclick="setLanguage(1)">Polski</a></li>
@@ -37,7 +37,7 @@
                 <li class="nav-item">{{-- Change color scheme here --}}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="img/theme-dark.png" alt="" width="30vh">
+                        <img id="imgTheme" src="img/theme-dark.png" alt="" width="30vh">
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" onclick="setColorScheme(1)">Jasny</a></li>
