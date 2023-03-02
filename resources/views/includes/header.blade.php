@@ -22,15 +22,26 @@
                 <li class="nav-item">
                     <a class="nav-link" id="navGallery" href="gallery"></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item">{{-- Change language here --}}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="img/language.png" alt="" width="30vh">
+                        <img src="img/language-dark.png" alt="" width="30vh">
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" onclick="setLanguage(1)">Polski</a></li>
                         <li><a class="dropdown-item" onclick="setLanguage(2)">English</a></li>
                         <li><a class="dropdown-item" onclick="setLanguage(3)">Deutsch</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li class="nav-item">{{-- Change color scheme here --}}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="img/theme-dark.png" alt="" width="30vh">
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" onclick="setColorScheme(1)">Jasny</a></li>
+                        <li><a class="dropdown-item" onclick="setColorScheme(2)">Ciemny</a></li>
                     </ul>
                 </li>
                 </li>
