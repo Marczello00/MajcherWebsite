@@ -8,7 +8,7 @@
 .nav-item {
     transition: all 0.3s ease-in-out;
 }
-.navbar-brand:hover,
-.nav-item:hover {
+body.hasHover .navbar-brand:hover,
+body.hasHover .nav-item:hover {
     transform: scale(1.5);
 }
