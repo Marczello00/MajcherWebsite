@@ -199,6 +199,17 @@ function setColorScheme(colorScheme) {
         footer
             ? (footer.style.cssText = "background-color: #F0D9FF; color: #000;")
             : null;
+
+        const queue = document.querySelectorAll('*[id^="queue"]');
+        for (i = 0; i < queue.length; i++) {
+            if (queue[i].classList.contains("text-white")) {
+                queue[i].classList.remove("text-white");
+                
+            }
+            queue[i].classList.add("text-dark");
+        }
+        const queueTable = document.getElementById("queueTable");
+        queueTable ? (queueTable.style.cssText = "background-color: #BFA2DB; width: 50%;") : null;
     }
     if (colorScheme == 2) {
         //Set dark theme
@@ -227,6 +238,17 @@ function setColorScheme(colorScheme) {
         footer
             ? (footer.style.cssText = "background-color: #3E065F; color: #fff;")
             : null;
+
+        const queue = document.querySelectorAll('*[id^="queue"]');
+        for (i = 0; i < queue.length; i++) {
+            if (queue[i].classList.contains("text-dark")) {
+                queue[i].classList.remove("text-dark");
+                
+            }
+            queue[i].classList.add("text-white");
+        }
+        const queueTable = document.getElementById("queueTable");
+        queueTable ? (queueTable.style.cssText = "background-color: #700B97; width: 50%;") : null;
     }
 }
 
