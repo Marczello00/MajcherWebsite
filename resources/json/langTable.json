@@ -152,90 +152,108 @@
         },
         {
             "id": "homeDiv21",
+            "pl": "Samoobsługowa myjnia bezdotykowa",
+            "en": "Self-service touchless car wash",
+            "de": "Berührungslose Autowaschanlage mit Selbstbedienung"
+        },
+        {
+            "id": "homeDiv22",
+            "pl": "W pobliżu naszego zakładu znajduje się samoobsługowa myjnia bezdotykowa z odkurzaczem, nalewakiem płynu do spryskiwaczy oraz dystrybutorem zapachów. Jest to idealne rozwiązanie dla osób chcących szybko i skutecznie oczyścić swój samochód na zewnątrz i w środku.",
+            "en": "Near our workshop, there is a self-service touchless car wash with a vacuum cleaner, windshield washer fluid dispenser and fragrance dispenser. It is an ideal solution for people who want to quickly and effectively clean their car inside and out.",
+            "de": "In der Nähe unserer Werkstatt befindet sich eine berührungslose Selbstbedienungswaschanlage mit Staubsauger, Waschwasserspender und Duftspender. Es ist die perfekte Lösung für Menschen, die ihr Auto schnell und effektiv innen und außen reinigen möchten."
+        },
+        {
+            "id": "homeDiv23",
+            "pl": "Zachęcamy do skorzystania z tych udogodnień, które zapewnią Twojemu pojazdowi nowy wygląd i świeży zapach.",
+            "en": "We encourage you to take advantage of these amenities that will give your vehicle a new look and a fresh smell.",
+            "de": "Wir empfehlen Ihnen, diese Annehmlichkeiten zu nutzen, die Ihrem Fahrzeug ein neues Aussehen und einen frischen Geruch verleihen."
+        },
+        {
+            "id": "homeDiv31",
             "pl": "Opony w samochodach osobowych",
             "en": "Passenger car tires",
             "de": "Pkw-Reifen"
         },
         {
-            "id": "homeDiv22",
+            "id": "homeDiv32",
             "pl": "Wymiana opon: Nasz zespół jest w stanie szybko i skutecznie wymienić opony w Twoim samochodzie, aby zapewnić bezpieczeństwo i wygodę jazdy,",
             "en": "Tire change: Our team is able to quickly and efficiently replace the tires on your car to ensure the safety and comfort of driving,",
             "de": "Reifenwechsel: Unser Team ist in der Lage, die Reifen Ihres Autos schnell und effizient auszutauschen, um die Sicherheit und den Fahrkomfort zu gewährleisten."
         },
         {
-            "id": "homeDiv23",
+            "id": "homeDiv33",
             "pl": "Wyważanie kół: Nasze usługi wyważania kół zapewniają najwyższy poziom, co pozwala uniknąć drgań oraz zapewnia płynną i komfortową jazdę,",
             "en": "Wheel balancing: Our wheel balancing services provide the highest level of service, which avoids vibrations and ensures a smooth and comfortable ride,",
             "de": "Radauswuchten: Unsere Radauswuchtdienste bieten ein Höchstmaß an Service, wodurch Vibrationen vermieden und eine reibungslose und komfortable Fahrt gewährleistet werden."
         },
         {
-            "id": "homeDiv24",
+            "id": "homeDiv34",
             "pl": "Naprawa kół: Nasz zespół jest w stanie szybko i skutecznie naprawić uszkodzenia kół jaki i dętek, aby zapewnić bezpieczeństwo i trwałość,",
             "en": "Wheel repair: Our team is able to quickly and efficiently repair damage to wheels and tubes to ensure safety and durability,",
             "de": "Radreparatur: Unser Team ist in der Lage, Schäden an Rädern und Schläuchen schnell und effizient zu reparieren, um Sicherheit und Haltbarkeit zu gewährleisten."
         },
         {
-            "id": "homeDiv25",
+            "id": "homeDiv35",
             "pl": "Obsługa niskoprofilowych opon: Nasze usługi obejmują również obsługę niskoprofilowych opon, które są coraz bardziej popularne wśród nowoczesnych aut,",
             "en": "Low profile tire service: Our services also include low profile tire service, which is becoming more and more popular on modern cars,",
             "de": "Niederquerschnittsreifenservice: Zu unseren Dienstleistungen gehört auch der Niederquerschnittsreifenservice, der bei modernen Autos immer beliebter wird,"
         },
         {
-            "id": "homeDiv26",
+            "id": "homeDiv36",
             "pl": "Obsługa opon typu Run On Flat: Nasz zespół jest w stanie również obsłużyć opony typu Run On Flat, które pozwalają kontynuować jazdę nawet po uszkodzeniu,",
             "en": "Run On Flat tire service: Our team is also able to service Run On Flat tyres, which allow you to continue driving even after damage,",
             "de": "Run On Flat-Reifenservice: Unser Team ist auch in der Lage, Run On Flat-Reifen zu warten, mit denen Sie auch nach einem Schaden weiterfahren können."
         },
         {
-            "id": "homeDiv27",
+            "id": "homeDiv37",
             "pl": "Sezonowe przechowywanie koł lub opon: (brak wolnych miejsc obecnie).",
             "en": "Seasonal wheel or tire storage: (No vacancies currently).",
             "de": "Saisonale Einlagerung von Rädern oder Reifen: (derzeit keine offenen Stellen)."
         },
         {
-            "id": "homeDiv31",
+            "id": "homeDiv41",
             "pl": "Pojazdy rolnicze i ciężarowe",
             "en": "Agricultural vehicles and trucks",
             "de": "Landwirtschaftliche Fahrzeuge und Lastwagen"
         },
         {
-            "id": "homeDiv32",
+            "id": "homeDiv42",
             "pl": "Oprócz usług dla samochodów osobowych, nasz zakład również zajmuje się wymianą i naprawą kół ciężarowych i rolniczych. Nasz zespół posiada wiedzę i narzędzia potrzebne do zapewnienia skutecznej i szybkiej obsługi wszystkich rodzajów pojazdów ciężarowych i rolniczych.",
             "en": "In addition to services for passenger cars, our plant also deals with the replacement and repair of truck and agricultural wheels. Our team has the knowledge and tools needed to provide effective and fast service for all types of trucks and agricultural vehicles.",
             "de": "Neben Dienstleistungen für Pkw befasst sich unser Werk auch mit dem Austausch und der Reparatur von Lkw- und Landwirtschaftsrädern. Unser Team verfügt über das Wissen und die Werkzeuge, die für einen effektiven und schnellen Service für alle Arten von Lastkraftwagen und landwirtschaftlichen Fahrzeugen erforderlich sind."
         },
         {
-            "id": "homeDiv41",
+            "id": "homeDiv51",
             "pl": "Motocykle",
             "en": "Motorcycles",
             "de": "Motorräder"
         },
         {
-            "id": "homeDiv42",
+            "id": "homeDiv52",
             "pl": "Poza usługami dla samochodów osobowych i pojazdów ciężarowych, nasz zakład wulkanizacyjny również świadczy usługi wymiany, wyważania i naprawy kół motocyklowych. Nasz zespół posiada specjalistyczną wiedzę i doświadczenie, które pozwala na zapewnienie skutecznej i szybkiej obsługi większości typów motocykli.",
             "en": "In addition to services for cars and trucks, our vulcanization plant also provides services for replacing, balancing and repairing motorcycle wheels. Our team has specialist knowledge and experience that allows us to provide effective and quick service for most types of motorcycles.",
             "de": "Neben Dienstleistungen für Pkw und Lkw bietet unser Vulkanisationswerk auch Dienstleistungen für den Austausch, das Auswuchten und die Reparatur von Motorradrädern an. Unser Team verfügt über Fachwissen und Erfahrung, die es uns ermöglichen, einen effektiven und schnellen Service für die meisten Motorradtypen anzubieten."
         },
         {
-            "id": "homeDiv51",
+            "id": "homeDiv61",
             "pl": "Klimatyzacja w pojazdach",
             "en": "Air conditioning in vehicles",
             "de": "Klimaanlage in Fahrzeugen"
         },
         {
-            "id": "homeDiv52",
+            "id": "homeDiv62",
             "pl": "Oprócz standardowych usług wulkanizacyjnych, nasz zakład oferuje także obsługę klimatyzacji samochodowej. Nasz wykwalifikowany zespół sprawdza szczelność układu, uzupełnia czynnik i odgrzybia system klimatyzacji, zapewniając zdrowe i czyste powietrze w kabinie samochodu. Zapraszamy do skorzystania z naszej usługi klimatyzacji i cieszenia się komfortem jazdy w upalne dni.",
             "en": "In addition to standard vulcanization services, our plant also offers car air conditioning service. Our qualified team checks the tightness of the system, replenishes the factor and removes fungus from the air conditioning system, ensuring healthy and clean air in the car cabin. We invite you to use our air conditioning service and enjoy the comfort of driving on hot days.",
             "de": "Zusätzlich zu den Standard-Vulkanisationsdiensten bietet unser Werk auch den Service der Autoklimatisierung an. Unser qualifiziertes Team prüft die Dichtheit des Systems, füllt den Faktor auf und entfernt Pilze aus der Klimaanlage und sorgt so für gesunde und saubere Luft im Autoinnenraum. Wir laden Sie ein, unseren Klimaservice zu nutzen und den Fahrkomfort an heißen Tagen zu genießen."
         },
         {
-            "id": "homeDiv61",
+            "id": "homeDiv71",
             "pl": "Systemy monitorowania ciśnienia w oponach",
             "en": "Tire pressure monitor systems",
             "de": "Reifendrucküberwachungssysteme"
         },
         {
-            "id": "homeDiv62",
+            "id": "homeDiv72",
             "pl": "Oprócz wymiany i naprawy kół oraz klimatyzacji, nasz zakład również świadczy usługi związane z czujnikami ciśnienia powietrza w kołach. Obsługujemy oryginalne czujniki, a także sprzedajemy i programujemy nowe czujniki TPMS (Tire Pressure Monitoring System - System Monitorowania Ciśnienia w Oponach).",
             "en": "In addition to the replacement and repair of wheels and air conditioning, our plant also provides services related to air pressure sensors in the wheels. We service original sensors, as well as sell and program new TPMS (Tire Pressure Monitoring System) sensors.",
             "de": "Neben dem Austausch und der Reparatur von Rädern und Klimaanlagen bietet unser Werk auch Dienstleistungen rund um Luftdrucksensoren in den Rädern an. Wir warten Originalsensoren und verkaufen und programmieren neue TPMS-Sensoren (Reifendrucküberwachungssystem)."

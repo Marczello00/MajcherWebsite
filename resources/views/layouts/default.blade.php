@@ -5,7 +5,7 @@
     @include('includes.head')
 </head>
 
-<body class="container-fluid bg-black" onload="" style="font-family: 'Signika Negative', sans-serif;">
+<body id="mainBackground1" class="container-fluid bg-black" onload="" style="font-family: 'Signika Negative', sans-serif;">
 
     <div class="container">
         <header class="row">

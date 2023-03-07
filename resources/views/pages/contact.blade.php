@@ -1,9 +1,9 @@
 @extends('layouts.default')
 @section('content')
-<div class="d-flex justify-content-center text-light" style="margin-top: 5%; margin-bottom: 5%;">
+<div id="mainContact1" class="d-flex justify-content-center text-light" style="margin-top: 5%; margin-bottom: 5%;">
     <h1 id="contact1"></h1>
 </div>
-<div class="container text-center text-light" style="max-width: 500px;">
+<div id="mainContact2" class="container text-center text-light" style="max-width: 500px;">
     <div class="row">
         <div class="col">
             <p>"Majcher"<br>
@@ -19,7 +19,8 @@
             <div id="contact3"></div>
             <div id="contact4"></div>
             <div id="contact5"></div>
-            <div id="contact6"></div></p>
+            <div id="contact6"></div>
+            </p>
         </div>
     </div>
 </div>

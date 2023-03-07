@@ -51,7 +51,7 @@
 
 </script>
 
-<div class="card" style="background-color: #3E065F; color: #fff;">
+<div id="mainFooter1" class="card" style="background-color: #3E065F; color: #fff;">
 
     <div class="container text-center">
         <div class="row align-items-start">

@@ -3,10 +3,10 @@
 <div class="d-flex justify-content-center " style="margin-top: 5%; margin-bottom: 5%;">
     <h1 id="queue1" class="text-white"></h1>
 </div>
-<div class="d-flex justify-content-center" >
+<div class="d-flex justify-content-center">
     <h3 id="queue2" class="text-white"></h3>
 </div>
-<div class="d-flex justify-content-center" >
+<div class="d-flex justify-content-center">
     <h6 id="queue6" class="text-white"></h6>
 </div>
 <div class="d-flex justify-content-center">

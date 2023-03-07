@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-<div class="card container d-flex justify-content-center" style="max-width: 1200px; padding: 1.5rem; background-color: #191919;">
+<div id="mainGallery1" class="card container d-flex justify-content-center" style="margin-top:100px; max-width: 1200px; padding: 1.5rem; background-color: #700B97;">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">

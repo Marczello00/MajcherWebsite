@@ -172,9 +172,10 @@ jasne:   F3F1F5  F0D9FF  BFA2DB  7F7C82
 ciemne:  000000  3E065F  700B97  8E05C2
 */
 function setColorScheme(colorScheme) {
+    setCookie("Theme", colorScheme, 365);
     if (colorScheme == 1) {
         //Set white theme
-        const background = document.getElementsByClassName("bg-black")[0];
+        const background = document.getElementById("mainBackground1");
         if (background) {
             background.classList.remove("bg-black");
             background.classList.add("bg-white");
@@ -195,7 +196,17 @@ function setColorScheme(colorScheme) {
         const imgTheme = document.getElementById("imgTheme");
         imgTheme ? (imgTheme.src = "img/theme-white.png") : null;
 
-        const footer = document.getElementsByClassName("card")[0];
+        const home = document.querySelectorAll('*[id^="mainHomeDiv"]'); // strona domowa, tekst zmiana koloru
+        for (i = 0; i < home.length; i++) {
+            if (home[i].classList.contains("text-white")) {
+                home[i].classList.remove("text-white");
+            }
+            home[i].classList.add("text-black");
+            const newURL = "url('/img/div" + (i + 1) + "-white.jpg')";
+            home[i].style["background-image"] = newURL;
+        }
+
+        const footer = document.getElementById("mainFooter1");
         footer
             ? (footer.style.cssText = "background-color: #F0D9FF; color: #000;")
             : null;
@@ -204,12 +215,28 @@ function setColorScheme(colorScheme) {
         for (i = 0; i < queue.length; i++) {
             if (queue[i].classList.contains("text-white")) {
                 queue[i].classList.remove("text-white");
-                
             }
             queue[i].classList.add("text-dark");
         }
+
         const queueTable = document.getElementById("queueTable");
-        queueTable ? (queueTable.style.cssText = "background-color: #BFA2DB; width: 50%;") : null;
+        queueTable
+            ? (queueTable.style.cssText =
+                  "background-color: #BFA2DB; width: 50%;")
+            : null;
+
+        const contact = document.querySelectorAll('*[id^="mainContact"]'); //strona kontaktowa
+        for (i = 0; i < contact.length; i++) {
+            if (contact[i].classList.contains("text-light")) {
+                contact[i].classList.remove("text-light");
+            }
+            contact[i].classList.add("text-dark");
+        }
+
+        const gallery = document.getElementById("mainGallery1"); //tlo karuzeli galerii
+        if (gallery) {
+            gallery.style["background-color"] = "#BFA2DB";
+        }
     }
     if (colorScheme == 2) {
         //Set dark theme
@@ -234,7 +261,17 @@ function setColorScheme(colorScheme) {
         const imgTheme = document.getElementById("imgTheme");
         imgTheme ? (imgTheme.src = "img/theme-dark.png") : null;
 
-        const footer = document.getElementsByClassName("card")[0];
+        const home = document.querySelectorAll('*[id^="mainHomeDiv"]'); // strona domowa, tekst zmiana koloru
+        for (i = 0; i < home.length; i++) {
+            if (home[i].classList.contains("text-black")) {
+                home[i].classList.remove("text-black");
+            }
+            home[i].classList.add("text-white");
+            const newURL = "url('/img/div" + (i + 1) + "-dark.jpg')";
+            home[i].style["background-image"] = newURL;
+        }
+
+        const footer = document.getElementById("mainFooter1");
         footer
             ? (footer.style.cssText = "background-color: #3E065F; color: #fff;")
             : null;
@@ -243,16 +280,41 @@ function setColorScheme(colorScheme) {
         for (i = 0; i < queue.length; i++) {
             if (queue[i].classList.contains("text-dark")) {
                 queue[i].classList.remove("text-dark");
-                
             }
             queue[i].classList.add("text-white");
         }
         const queueTable = document.getElementById("queueTable");
-        queueTable ? (queueTable.style.cssText = "background-color: #700B97; width: 50%;") : null;
+        queueTable
+            ? (queueTable.style.cssText =
+                  "background-color: #700B97; width: 50%;")
+            : null;
+
+        const contact = document.querySelectorAll('*[id^="mainContact"]'); //strona kontaktowa
+        for (i = 0; i < contact.length; i++) {
+            if (contact[i].classList.contains("text-dark")) {
+                contact[i].classList.remove("text-dark");
+            }
+            contact[i].classList.add("text-light");
+        }
+
+        const gallery = document.getElementById("mainGallery1"); //tlo karuzeli galerii
+        if (gallery) {
+            gallery.style["background-color"] = "#700B97";
+        }
+    }
+}
+
+function checkCookieTheme() {
+    const themeCookie = getCookie("Theme");
+    if (themeCookie) {
+        setColorScheme(themeCookie);
+    } else {
+        setColorScheme(2);
     }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
     checkCookieLanguage();
+    checkCookieTheme();
     watchForHover();
 });
