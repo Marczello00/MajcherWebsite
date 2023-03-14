@@ -4,57 +4,57 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/carousel/1.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('/api/photos/400') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/2.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('/api/photos/401') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/3.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('/api/photos/402') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/4.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('/api/photos/403') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/5.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('/api/photos/404') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/6.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('/api/photos/405') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/7.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('/api/photos/406') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/8.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('/api/photos/407') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/9.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('/api/photos/408') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/10.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('/api/photos/409') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="img/carousel/11.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('/api/photos/410') }}" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                 </div>
             </div>

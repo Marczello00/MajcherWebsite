@@ -1,7 +1,7 @@
 <div class="container" style="margin-bottom: 30px;">
     <div class="d-flex justify-content-center" style="margin-top:3%;">
         <a id="logo" href="/">
-            <img id="imgLogo" class="img-fluid" src="img/logo-dark.png" style="height: 15vh; ">
+            <img id="imgLogo" class="img-fluid" src="{{ url('/api/photos/518') }}" style="height: 15vh; ">
         </a>
     </div>
 </div>
@@ -25,7 +25,7 @@
                 <li class="nav-item">{{-- Change language here --}}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img id="imgLanguage" src="img/language-dark.png" alt="" width="30vh">
+                        <img id="imgLanguage" src="{{ url('/api/photos/528') }}" alt="" width="30vh">
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" onclick="setLanguage(1)">Polski</a></li>
@@ -37,11 +37,11 @@
                 <li class="nav-item">{{-- Change color scheme here --}}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img id="imgTheme" src="img/theme-dark.png" alt="" width="30vh">
+                        <img id="imgTheme" src="{{ url('/api/photos/538') }}" alt="" width="30vh">
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" onclick="setColorScheme(1)">Jasny</a></li>
-                        <li><a class="dropdown-item" onclick="setColorScheme(2)">Ciemny</a></li>
+                        <li><a class="dropdown-item" onclick="setColorScheme(1);">Jasny</a></li>
+                        <li><a class="dropdown-item" onclick="setColorScheme(2);">Ciemny</a></li>
                     </ul>
                 </li>
                 </li>

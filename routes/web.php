@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\PhotoController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ResController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,12 +27,12 @@ Route::get(
         return view('pages.queue');
     }
 );
-Route::get(
+/*Route::get(
     '/pricing',
     function () {
         return view('pages.pricing');
     }
-);
+);*/
 Route::get(
     '/contact',
     function () {
@@ -61,3 +63,11 @@ Route::get(
         return response()->file(resource_path('json\langTable.json'));
     }
 );
+Route::get(
+    '/api/photos/{id}',
+    [PhotoController::class, 'show']
+)->where('id', '[0-9]+');
+Route::get(
+    '/api/res/{id}',
+    [ResController::class, 'sendIt']
+)->where('id', '[0-9]+');

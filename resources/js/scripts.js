@@ -172,7 +172,7 @@ jasne:   F3F1F5  F0D9FF  BFA2DB  7F7C82
 ciemne:  000000  3E065F  700B97  8E05C2
 */
 function setColorScheme(colorScheme) {
-    setCookie("Theme", colorScheme, 365);
+    setCookie("theme", colorScheme, 365);
     if (colorScheme == 1) {
         //Set white theme
         const background = document.getElementById("mainBackground1");
@@ -187,14 +187,15 @@ function setColorScheme(colorScheme) {
             navbar.style["background-color"] = "#F0D9FF";
         }
 
+        
         const logo = document.getElementById("imgLogo");
-        logo ? (logo.src = "img/logo-white.png") : null;
+        logo ? (logo.src = "/api/photos/511") : null;
 
         const imgLanguage = document.getElementById("imgLanguage");
-        imgLanguage ? (imgLanguage.src = "img/language-white.png") : null;
+        imgLanguage ? (imgLanguage.src = "/api/photos/521") : null;
 
         const imgTheme = document.getElementById("imgTheme");
-        imgTheme ? (imgTheme.src = "img/theme-white.png") : null;
+        imgTheme ? (imgTheme.src = "/api/photos/531") : null;
 
         const home = document.querySelectorAll('*[id^="mainHomeDiv"]'); // strona domowa, tekst zmiana koloru
         for (i = 0; i < home.length; i++) {
@@ -202,7 +203,7 @@ function setColorScheme(colorScheme) {
                 home[i].classList.remove("text-white");
             }
             home[i].classList.add("text-black");
-            const newURL = "url('/img/div" + (i + 1) + "-white.jpg')";
+            const newURL = "url('/api/photos/1" + (i + 1) + "1')";
             home[i].style["background-image"] = newURL;
         }
 
@@ -237,6 +238,11 @@ function setColorScheme(colorScheme) {
         if (gallery) {
             gallery.style["background-color"] = "#BFA2DB";
         }
+        const error404 = document.getElementById("error404"); //kolor tekstu strony błędu 404
+        if (error404) {
+            error404.classList.remove("text-white");
+            error404.classList.add("text-black");
+        }
     }
     if (colorScheme == 2) {
         //Set dark theme
@@ -252,14 +258,15 @@ function setColorScheme(colorScheme) {
             navbar.style["background-color"] = "#3E065F";
         }
 
+        
         const logo = document.getElementById("imgLogo");
-        logo ? (logo.src = "img/logo-dark.png") : null;
+        logo ? (logo.src = "/api/photos/518") : null;
 
         const imgLanguage = document.getElementById("imgLanguage");
-        imgLanguage ? (imgLanguage.src = "img/language-dark.png") : null;
+        imgLanguage ? (imgLanguage.src = "/api/photos/528") : null;
 
         const imgTheme = document.getElementById("imgTheme");
-        imgTheme ? (imgTheme.src = "img/theme-dark.png") : null;
+        imgTheme ? (imgTheme.src = "/api/photos/538") : null;
 
         const home = document.querySelectorAll('*[id^="mainHomeDiv"]'); // strona domowa, tekst zmiana koloru
         for (i = 0; i < home.length; i++) {
@@ -267,7 +274,7 @@ function setColorScheme(colorScheme) {
                 home[i].classList.remove("text-black");
             }
             home[i].classList.add("text-white");
-            const newURL = "url('/img/div" + (i + 1) + "-dark.jpg')";
+            const newURL = "url('/api/photos/1" + (i + 1) + "8')";
             home[i].style["background-image"] = newURL;
         }
 
@@ -301,11 +308,16 @@ function setColorScheme(colorScheme) {
         if (gallery) {
             gallery.style["background-color"] = "#700B97";
         }
+        const error404 = document.getElementById("error404"); //kolor tekstu strony błędu 404
+        if (error404) {
+            error404.classList.remove("text-black");
+            error404.classList.add("text-white");
+        }
     }
 }
 
 function checkCookieTheme() {
-    const themeCookie = getCookie("Theme");
+    const themeCookie = getCookie("theme");
     if (themeCookie) {
         setColorScheme(themeCookie);
     } else {

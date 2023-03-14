@@ -48,7 +48,7 @@
     <p id="queue4" class="fs-3 text-white"></p>
 </div>
 <div class="d-flex justify-content-center" style="
-    background-image: url('/img/camera_off.png');
+    background-image: url('{{ url('/api/photos/20') }}');
     background-repeat: no-repeat;
     background-size:contain;
     background-position:center;
@@ -60,7 +60,7 @@
 </div>
 <div><br></div>
 <div class="d-flex justify-content-center" style="
-    background-image: url('/img/camera_off.png');
+    background-image: url('{{ url('/api/photos/20') }}');
     background-repeat: no-repeat;
     background-size:contain;
     background-position:center;

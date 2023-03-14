@@ -5,7 +5,7 @@
 
 
 <div id="mainHomeDiv1" class="bg-image text-center text-white" style="
-    background-image: url('/img/div1-dark.jpg');
+    background-image: url('/api/photos/118');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:contain;
@@ -22,7 +22,7 @@
 
 
 <div id="mainHomeDiv2" class="bg-image text-center text-white" style="
-    background-image: url('/img/div2-dark.jpg');
+    background-image: url('/api/photos/128');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:contain;
@@ -39,7 +39,7 @@
 
 
 <div id="mainHomeDiv3" class="bg-image text-center text-white" style="
-    background-image: url('/img/div3-dark.jpg');
+    background-image: url('/api/photos/138');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:contain;
@@ -61,7 +61,7 @@
 
 
 <div id="mainHomeDiv4" class="bg-image text-center text-white" style="
-    background-image: url('/img/div4-dark.jpg');
+    background-image: url('/api/photos/148');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:contain;
@@ -77,7 +77,7 @@
 
 
 <div id="mainHomeDiv5" class="bg-image text-center text-white" style="
-    background-image: url('/img/div5-dark.jpg');
+    background-image: url('/api/photos/158');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:contain;
@@ -92,7 +92,7 @@
 
 
 <div id="mainHomeDiv6" class="bg-image text-center text-white" style="
-    background-image: url('/img/div6-dark.jpg');
+    background-image: url('/api/photos/168');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:contain;
@@ -106,7 +106,7 @@
 </div>
 
 <div id="mainHomeDiv7" class="bg-image text-center text-white" style="
-    background-image: url('/img/div6-dark.jpg');
+    background-image: url('/api/photos/178');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:contain;
