@@ -6,7 +6,7 @@
 </script>
 <!-- cookie warning toast -->
 <div class="fixed-bottom p-4">
-    <div class="toast bg-black text-white w-100 mw-100" role="alert" data-bs-autohide="false">
+    <div id="toastCookie1" class="toast text-white w-100 mw-100" role="alert" data-bs-autohide="false">
         <div class="toast-body p-4 d-flex flex-column">
             <div class="d-flex flex-row p-2">
                 <div id="footCookie1"></div>

@@ -187,7 +187,6 @@ function setColorScheme(colorScheme) {
             navbar.style["background-color"] = "#F0D9FF";
         }
 
-        
         const logo = document.getElementById("imgLogo");
         logo ? (logo.src = "/api/photos/511") : null;
 
@@ -243,6 +242,12 @@ function setColorScheme(colorScheme) {
             error404.classList.remove("text-white");
             error404.classList.add("text-black");
         }
+        const toastCookie = document.getElementById("toastCookie1");
+        if (toastCookie) {
+            toastCookie.style["background-color"] = "#BFA2DB";
+            toastCookie.classList.remove("text-white");
+            toastCookie.classList.add("text-black");
+        }
     }
     if (colorScheme == 2) {
         //Set dark theme
@@ -258,7 +263,6 @@ function setColorScheme(colorScheme) {
             navbar.style["background-color"] = "#3E065F";
         }
 
-        
         const logo = document.getElementById("imgLogo");
         logo ? (logo.src = "/api/photos/518") : null;
 
@@ -312,6 +316,12 @@ function setColorScheme(colorScheme) {
         if (error404) {
             error404.classList.remove("text-black");
             error404.classList.add("text-white");
+        }
+        const toastCookie = document.getElementById("toastCookie1");
+        if (toastCookie) {
+            toastCookie.style["background-color"] = "#700B97";
+            toastCookie.classList.remove("text-black");
+            toastCookie.classList.add("text-white");
         }
     }
 }
