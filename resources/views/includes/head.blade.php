@@ -13,14 +13,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <script type="text/javascript">
     function callbackThen(response) {
         // read HTTP status
-        console.log(response.status);
+        //console.log(response.status);
 
         // read Promise object
         response.json().then(function(data) {
-            console.log(data);
+            //console.log(data);
         });
     }
 
