@@ -10,8 +10,6 @@
 <!-- AOS library-->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <link rel="stylesheet" href="{{ url('/api/res/1') }}" />
-<!-- reCAPTCHA
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
