@@ -10,7 +10,7 @@
                 Marian Majcher<br>
                 <a href="tel:+48166220360">16 622 0360</a><br>
                 <a href="tel:+48604694535">+48 604 694 535</a><br>
-                <a href="mailto:marianmajcher@wp.pl">marianmajcher@wp.pl</a><br>
+                <a href="mailto:marian@oponymajcher.pl">marian@oponymajcher.pl</a><br>
         </div>
 
 

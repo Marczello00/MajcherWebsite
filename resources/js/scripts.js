@@ -248,6 +248,11 @@ function setColorScheme(colorScheme) {
             toastCookie.classList.remove("text-white");
             toastCookie.classList.add("text-black");
         }
+		const privacySite = document.getElementById("privacySite");
+        if (privacySite) {
+            privacySite.classList.remove("text-white");
+            privacySite.classList.add("text-black");
+        }
     }
     if (colorScheme == 2) {
         //Set dark theme
@@ -322,6 +327,11 @@ function setColorScheme(colorScheme) {
             toastCookie.style["background-color"] = "#700B97";
             toastCookie.classList.remove("text-black");
             toastCookie.classList.add("text-white");
+        }
+		const privacySite = document.getElementById("privacySite");
+        if (privacySite) {
+            privacySite.classList.remove("text-black");
+            privacySite.classList.add("text-white");
         }
     }
 }

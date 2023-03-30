@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-<article class="text-light">
+<article id="privacySite" class="text-white">
     <h1>Polityka Prywatności</h1>
     <p>Poniższa Polityka Prywatności określa <strong>zasady zapisywania i uzyskiwania dostępu do danych na Urządzeniach Użytkowników</strong> korzystających z Serwisu do celów świadczenia usług drogą elektroniczną przez Administratora oraz <strong>zasady gromadzenia i przetwarzania danych osobowych Użytkowników</strong>, które zostały podane przez nich osobiście i dobrowolnie za pośrednictwem narzędzi dostępnych w Serwisie.</p>
     <p>Poniższa Polityka Prywatności jest integralną częścią Regulaminu Serwisu, który określa zasady, prawa i obowiązki Użytkowników korzystających z Serwisu.</p>
