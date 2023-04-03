@@ -3,17 +3,6 @@
 <title>Serwis Opon Majcher</title>
 
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6H7934L02X"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6241220846160598"
-     crossorigin="anonymous"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6H7934L02X');
-</script>
 
 <link rel="icon" href="/api/photos/50" type="image/x-icon">
 <!-- load bootstrap -->
