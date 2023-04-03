@@ -73,4 +73,9 @@
     };
 
 </script>
+{!! htmlScriptTagJsApi([
+    'action' => 'queue',
+    'callback_then' => 'callbackThen',
+    'callback_catch' => 'callbackCatch'
+    ]) !!}
 @stop

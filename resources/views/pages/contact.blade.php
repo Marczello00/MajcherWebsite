@@ -27,4 +27,9 @@
 <div class="d-flex justify-content-center text-light">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.263258732153!2d22.654576915941096!3d50.00642072713979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473c9bb582f64057%3A0x618c13cbca921f5a!2s%22MAJCHER%22%20Marian%20Majcher!5e0!3m2!1spl!2spl!4v1671444406818!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
+{!! htmlScriptTagJsApi([
+    'action' => 'contact',
+    'callback_then' => 'callbackThen',
+    'callback_catch' => 'callbackCatch'
+    ]) !!}
 @stop
