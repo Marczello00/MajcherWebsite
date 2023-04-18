@@ -65,7 +65,7 @@
     background-size:contain;
     background-position:center;
     ">
-    <iframe id="camera_autowash" style="visibility: none" width="640" height="480" src="https://rtsp.me/embed/TTEFSiYf/" frameborder="0" allowfullscreen></iframe>
+    <iframe id="camera_autowash" style="visibility: none" width="640" height="480" src="https://rtsp.me/embed/TEhTbDf3/" frameborder="0" allowfullscreen></iframe>
 </div>
 <script>
     window.onload = function() {
