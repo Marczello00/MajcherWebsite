@@ -331,6 +331,18 @@
             "de": "Die aktuelle Warteschlange für den Workshop:"
         },
         {
+            "id": "queue38",
+            "pl": "Oglądanie transmisji oznacza akceptację regulaminu",
+            "en": "Watching the broadcast means accepting the regulations",
+            "de": "Die Sendung anzuschauen bedeutet, die Vorschriften zu akzeptieren"
+        },
+        {
+            "id": "queue39",
+            "pl": "REGULAMIN",
+            "en": "REGULATIONS",
+            "de": "VORSCHRIFTEN"
+        },
+        {
             "id": "queue5",
             "pl": "Aktualna kolejka do myjni:",
             "en": "The current queue to the car wash:",

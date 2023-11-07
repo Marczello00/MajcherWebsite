@@ -64,6 +64,12 @@ Route::get(
     }
 );
 Route::get(
+    '/regulations',
+    function () {
+        return view('pages.regulations');
+    }
+);
+Route::get(
     '/api/photos/{id}',
     [PhotoController::class, 'show']
 )->where('id', '[0-9]+');

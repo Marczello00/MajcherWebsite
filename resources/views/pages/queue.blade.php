@@ -44,9 +44,16 @@
         </tbody>
     </table>
 </div>
+    <div>
+<div class="d-flex justify-content-center">
+    <p id="queue38" class="fs-3 text-white"></p>
+</div>
+<div class="d-flex justify-content-center">
+    <a href="regulations"><p id="queue39" class="fs-3 text-white"></p></a>
+</div>
 <div class="d-flex justify-content-center">
     <p id="queue4" class="fs-3 text-white"></p>
-</div>
+</div></div>
 <div class="d-flex justify-content-center" style="
     background-image: url('{{ url('/api/photos/20') }}');
     background-repeat: no-repeat;
