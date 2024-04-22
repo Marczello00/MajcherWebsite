@@ -60,7 +60,7 @@
     background-size:contain;
     background-position:center;
     ">
-    <iframe id="camera_workshop" class="camera_hidden" width="640" height="480" src="https://rtsp.me/embed/KBySA3b7/" frameborder="0" allowfullscreen></iframe>
+    <iframe id="camera_workshop" class="camera_hidden" width="640" height="480" src="https://rtsp.me/embed/RiBae5dN/" frameborder="0" allowfullscreen></iframe>
 </div>
 <div class="d-flex justify-content-center">
     <p id="queue5" class="fs-3 text-white"></p>
@@ -72,7 +72,7 @@
     background-size:contain;
     background-position:center;
     ">
-    <iframe id="camera_autowash" style="visibility: none" width="640" height="480" src="https://rtsp.me/embed/TEhTbDf3/" frameborder="0" allowfullscreen></iframe>
+    <iframe id="camera_autowash" style="visibility: none" width="640" height="480" src="https://rtsp.me/embed/8Ei63nfK/" frameborder="0" allowfullscreen></iframe>
 </div>
 <script>
     window.onload = function() {
