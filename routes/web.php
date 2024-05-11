@@ -54,13 +54,13 @@ Route::get(
 Route::get(
     '/api/workingHours',
     function () {
-        return response()->file(resource_path('json\workingHours.json'));
+        return response()->file(resource_path('json/workingHours.json'));
     }
 );
 Route::get(
     '/api/languages',
     function () {
-        return response()->file(resource_path('json\langTable.json'));
+        return response()->file(resource_path('json/langTable.json'));
     }
 );
 Route::get(
