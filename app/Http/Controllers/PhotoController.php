@@ -25,6 +25,7 @@ class PhotoController extends Controller
         171 => "div7-light",
         178 => "div7-dark",
         20 => "camera_off",
+        21 => "camera_off_SU",
         400 => "1",
         401 => "2",
         402 => "3",
