@@ -63,7 +63,7 @@ class PhotoController extends Controller
         if ($id >= 111 && $id <= 178) {
             return response()->file(resource_path("img/divs/" . $this->photoDictionary[$id] . ".jpg"));
         }
-        if ($id >= 20 && $id <= 20) {
+        if ($id >= 20 && $id <= 21) {
             return response()->file(resource_path("img/" . $this->photoDictionary[$id] . ".png"));
         }
         if ($id >= 400 && $id <= 410) {
