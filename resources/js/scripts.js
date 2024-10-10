@@ -157,7 +157,7 @@ function IsWorkingHour(wh, date) {
 }
 function check_cameras() {
     (async () => {
-        return;
+        //return;
         const response = await httpsGetJson("/api/workingHours");
         const date = new Date();
         //date.setHours(15);

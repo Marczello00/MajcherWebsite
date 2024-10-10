@@ -24,11 +24,11 @@
             </tr>
             <tr>
                 <td id="queueTable2" class="tg-baqh text-white" style="text-align:right;"></td>
-                <td id="queueTable3" class="tg-baqh text-white">7:45-17:45</td>
+                <td id="queueTable3" class="tg-baqh text-white">8:00-17:30</td>
             </tr>
             <tr>
                 <td id="queueTable4" class="tg-baqh text-white" style="text-align:right;"></td>
-                <td id="queueTable5" class="tg-baqh text-white">7:45-12:45</td>
+                <td id="queueTable5" class="tg-baqh text-white">8:00-12:30</td>
             </tr>
             <tr>
                 <td id="queueTable6" class="tg-baqh text-white" style="text-align:right;"></td>
@@ -55,12 +55,12 @@
     <p id="queue4" class="fs-3 text-white"></p>
 </div></div>
 <div class="d-flex justify-content-center" style="
-    background-image: url('{{ url('/api/photos/21') }}');
+    background-image: url('{{ url('/api/photos/20') }}');
     background-repeat: no-repeat;
     background-size:contain;
     background-position:center;
     ">
-    <iframe id="camera_workshop" class="camera_hidden" width="640" height="480" src="https://rtsp.me/embed/RiBae5dN/" frameborder="0" allowfullscreen></iframe>
+    <iframe id="camera_workshop" class="camera_hidden" width="640" height="480" src="https://rtsp.me/embed/KBySA3b7/" frameborder="0" allowfullscreen></iframe>
 </div>
 <div class="d-flex justify-content-center">
     <p id="queue5" class="fs-3 text-white"></p>
