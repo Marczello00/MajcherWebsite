@@ -1,11 +1,11 @@
 {
   "Days": [
     { "name": "Sunday", "state": false },
-    { "name": "Monday", "state": true, "from": "0745", "to": "1745" },
-    { "name": "Tuesday", "state": true, "from": "0745", "to": "1745" },
-    { "name": "Wednesday", "state": true, "from": "0745", "to": "1745" },
-    { "name": "Thursday", "state": true, "from": "0745", "to": "1745" },
-    { "name": "Friday", "state": true, "from": "0745", "to": "1745" },
-    { "name": "Saturday", "state": true, "from": "0745", "to": "1245" }
+    { "name": "Monday", "state": true, "from": "0800", "to": "1730" },
+    { "name": "Tuesday", "state": true, "from": "0800", "to": "1730" },
+    { "name": "Wednesday", "state": true, "from": "0800", "to": "1730" },
+    { "name": "Thursday", "state": true, "from": "0800", "to": "1730" },
+    { "name": "Friday", "state": true, "from": "0800", "to": "1730" },
+    { "name": "Saturday", "state": true, "from": "0800", "to": "1230" }
   ]
 }
